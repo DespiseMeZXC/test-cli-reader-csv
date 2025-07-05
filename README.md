@@ -1,6 +1,9 @@
-##
+## Установка зависимостей
+```bash
+uv sync
+```
 
-## запуск и вывод файла
+## Запуск и вывод файла
 ```bash
 uv run python -m src.main --file files/products.csv
 ```
@@ -18,7 +21,7 @@ uv run python -m src.main --file files/products.csv --order-by "brand=desc"
 uv run python -m src.main --file files/products.csv --aggregate "rating=avg"
 ```
 
-## запуск тестов
+## Запуск тестов
 ```bash
 uv run pytest --cov=src tests/
 ```
