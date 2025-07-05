@@ -1,0 +1,4 @@
+DEBUG: All args = Namespace(file='files/products.csv', where='price', aggregate=None, order_by=None)
+DEBUG: args.where = price
+DEBUG: args.where = 'price'
+DEBUG: match result = None
