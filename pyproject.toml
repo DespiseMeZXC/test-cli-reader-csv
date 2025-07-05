@@ -1,0 +1,15 @@
+[project]
+name = "test-cli-reader-csv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pre-commit>=4.2.0",
+]
+
+[tool.pre-commit]
+repos = [
+  { repo = "https://github.com/psf/black", rev = "23.7.0", hooks = [{id = "black"}] },
+  { repo = "https://github.com/PyCQA/flake8", rev = "6.0.0", hooks = [{id = "flake8"}] },
+]
